@@ -148,7 +148,7 @@ a {
 	left: calc(50% - 87.5vmin/2);
 }
 
-.article-title-players::after {
+.players .article-title::after {
 	background-image: url("../images/basketballer_302.png");
 }
 
@@ -447,7 +447,7 @@ a {
 		top: 13vmin;
 	}
 
-	.article-title-players::after {
+	.players .article-title::after {
 		content: "";
 		background-image: url(../images/basketballer_436.png);
 		left: 31vmin;
@@ -632,7 +632,7 @@ a {
 		top: -20px;
 	}
 
-	.article-title-players::after {
+	.players .article-title::after {
 		content: "";
 		background-image: url(../images/basketballer_991.png);
 		left: auto;
