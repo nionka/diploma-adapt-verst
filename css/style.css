@@ -55,7 +55,7 @@ a {
 	z-index: 1;
 
     height: 100vmax;
-	padding: 0 20px;
+	padding: 0 6%;
 
 	display: flex;
 	flex-direction: column;
@@ -78,6 +78,8 @@ a {
 	line-height: 1.2;
 	color: #ffffff;
 	text-transform: uppercase;
+	max-width: 450px;
+	margin: auto;
 }
 
 .header-title-other {
@@ -128,11 +130,11 @@ a {
 /*шапка закончилась здесь*/
 
 .article-header {
-	padding: 0 20px;
+	padding: 0 6%;
 }
 
 .art-section {
-	padding: 50px 20px;
+	padding: 50px 6%;
 }
 
 .article-title::after {
@@ -234,7 +236,7 @@ a {
 }
 
 .aside-section-box {
-	padding: 0 20px;
+	padding: 0 6%;
 }
 
 .aside-section-header {
@@ -353,7 +355,7 @@ a {
 	border-radius: 20px;
 }
 
-@media (min-width: 641px) and (max-width: 960px) and (orientation:portrait) {
+@media (min-width: 641px) and (max-width: 960px) and (orientation: portrait) {
 
 	body {
 		font-size: 2.1vmin;
@@ -361,6 +363,10 @@ a {
 
 	.header, .footer {
 		background-image: url("../images/football_1280.jpg");
+	}
+
+	.header-container, .footer-container {
+		padding: 0 10px;
 	}
 
 	.logo-icon {
@@ -371,6 +377,7 @@ a {
 		font-size: 4em;
         letter-spacing: 3px;
         padding-left: 50px;
+        max-width: none;
 	}
 
 	.store-btns {
@@ -529,17 +536,20 @@ a {
 
 	.header-container, .footer-container {
 		height: 960px;
-		max-width: 1500px;
+		max-width: 1550px;
 		margin: auto;
+		padding: 0 20px;
 	}
 
 	.header-title {
-		font-size: 5.6em;
+		font-size: 4.3em;
 		letter-spacing: 5px;
+		max-width: none;
 	}
 
 	.header-title-other {
 		max-width: 1100px;
+		width: 880px;
 	}
 
 	.store-btns {
@@ -589,7 +599,7 @@ a {
 
 	.article-title {
 		font-size: 5em;
-		padding: 60px 20px 30px;
+		padding: 60px 6% 30px 0;
 		width: 50%;
 		margin-left: auto;
 	}
@@ -614,13 +624,14 @@ a {
 	.art-section-container {
 		margin-left: auto;
 		width: 50%;
-		padding: 0 20px;
+		padding-right: 6%;
 	}
 
 	.players .art-section-container, .players .article-title {
 		margin-right: auto;
 		margin-left: 0;
 		padding-right: 0;
+		padding-left: 6%;
 	}
 
 	.article-title::after {
@@ -628,7 +639,7 @@ a {
 		background-image: url("../images/footballer_566.png");
 		width: 850px;
 		height: 850px;
-		left: -800px;
+		left: -720px;
 		top: -20px;
 	}
 
@@ -653,17 +664,18 @@ a {
 
 	.aside-section-box {
 		width: 74%;
-		margin: 250px 100px;
+		margin: 250px 7% 250px 100px;
 		padding: 0;
 		max-width: 710px;
 	}
 
 	.aside-box-section {
 		margin-left: auto;
+		margin-right: 100px;
 	}
 
 	.aside-section-header {
-		font-size: 5em;
+		font-size: 3.75em;
 		padding: 70px 0; 
 	}
 
