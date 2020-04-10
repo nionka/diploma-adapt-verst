@@ -37,6 +37,7 @@ a {
 	background-position: center center;
 	background-color: #0a0e2f;
 	position: relative;
+	height: 100vmax;
 }
 
 .header::after, .footer::after {
@@ -358,7 +359,6 @@ a {
 @media (min-width: 641px) and (max-width: 960px) {
 
 	body {
-		/*font-size: 2.1vmin;*/
 		font-size: 100%;
 	}
 
